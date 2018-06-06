@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Sample Suite]">
+  <test name="Test 1">
+    <classes>
+      <class name="com.wind.ndbweb.ndbAutomation.LoginTest"/>
+    </classes>
+  </test> <!-- Test 1 -->
+  <test name="Test 1(failed)">
+    <classes>
+      <class name="com.wind.ndbweb.ndbAutomation.LoginTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="verifyLogin" invocation-numbers="0 1 2 3"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.wind.ndbweb.ndbAutomation.LoginTest -->
+    </classes>
+  </test> <!-- Test 1(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->

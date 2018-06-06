@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+
+	<test name="Test 1">
+		<classes>
+			<class name="com.wind.ndbweb.ndbAutomation.LoginTest"></class>
+		</classes>
+	</test>
+	
+<test name="Test 2">
+<classes>
+<class name="com.wind.ndbweb.ndbAutomation.ReportMan"></class>
+</classes>
+</test>
+<test name="Test 3">
+<classes>
+<class name="com.wind.ndbweb.ndbAutomation.ReportNetwork"></class>
+</classes>
+</test>
+<test name="Test 4">
+<classes>
+<class name="com.wind.ndbweb.ndbAutomation.FindLocationFunctionality"></class>
+</classes>
+</test>
+<test name="Test 5">
+<classes>
+<class name="com.wind.ndbweb.ndbAutomation.ReportVendibilty"></class>
+</classes>
+</test>
+<test name="Test 6">
+<classes>
+<class name="com.wind.ndbweb.ndbAutomation.ReportTokenFtth"></class>
+</classes>
+</test>
+<test name="Test 7">
+<classes>
+<class name="com.wind.ndbweb.ndbAutomation.ReportOccupazionePopftth"></class>
+</classes>
+</test> 
+<test name="Test 8">
+<classes>
+<class name="com.wind.ndbweb.ndbAutomation.PeipCreatione"></class>
+</classes>
+</test>
+</suite>
+
